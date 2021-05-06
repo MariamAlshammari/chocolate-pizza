@@ -1,0 +1,76 @@
+body {
+    
+    width: 960px;
+    margin: auto;
+    /*font-family: "Lucida Console", "Courier New", monospace;
+    font-family: Arial, Helvetica, sans-serif;*/
+    font-family: "Times New Roman", Times, serif;
+    
+}
+p{color: rgb(73, 71, 71);
+    text-indent: 30px;}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+#li1{font-size: 30px;}
+#div2{font-family: sans-serif;
+font-size: 10px;}
+hr{border: none;}
+
+
+
+
+
+nav ul li {display: inline-block;
+list-style: none;}
+#nav {
+    float: right;
+}
+#imgDiv{float: right;
+}
+
+.container{position: relative;
+    position: relative;
+    color: black;
+}
+.left{position: absolute;
+    bottom: 120px;
+    left: 16px;
+    list-style: none;
+    font-size: 20px;
+    color: rgb(68, 38, 38);
+    }
+
+    .right{position: absolute;
+        bottom: 120px;
+        right: 16px;
+        list-style: none;
+        font-size: 20px;
+        color: rgb(68, 38, 38);
+        }
+#logo{ /*display: block;
+    margin-left: auto;
+    margin-right:2%;  */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 90px;
+      }
+     
+#button{background-color: brown;
+color: white;
+width: 150px;
+height: 40px;
+
+}
+
+footer{
+    text-align: center;
+    color: gray;
+    padding: 30px;
+}
